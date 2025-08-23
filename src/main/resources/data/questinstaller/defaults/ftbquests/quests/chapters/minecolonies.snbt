@@ -72,7 +72,7 @@
 			rewards: [{
 				id: "5118D5653FA17BEF"
 				type: "xp"
-				xp: 10
+				xp: 5
 			}]
 			size: 1.5d
 			tasks: [{
@@ -234,6 +234,11 @@
 					item: "minecraft:stick"
 					type: "item"
 				}
+				{
+					id: "30744697D2DBE047"
+					type: "xp"
+					xp: 5
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:minecolonies/building_add_recipe_torch"
@@ -284,27 +289,21 @@
 			id: "23012F6C4C522CEB"
 			rewards: [
 				{
-					count: 4
-					id: "15EECD6D40BE289B"
-					item: "minecraft:spruce_sapling"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1F3E6E49B8C50CBF"
+					table_id: 8216757454481317885L
+					type: "choice"
 				}
 				{
-					count: 4
-					id: "1A6DF2A712435C5D"
-					item: "minecraft:birch_sapling"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "05DF32A68AF0C574"
+					table_id: 1496436499026242310L
+					type: "choice"
 				}
 				{
-					count: 4
-					id: "4F8193EEBC5DAF86"
-					item: "minecraft:dark_oak_sapling"
-					type: "item"
-				}
-				{
-					id: "304B85F74B8CD274"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "2CBB5742EC60599C"
+					type: "xp"
+					xp: 5
 				}
 			]
 			subtitle: "Build the Forester's Hut"
@@ -327,21 +326,27 @@
 			id: "6BB0C51EE8CA5966"
 			rewards: [
 				{
-					count: 64
-					id: "5B274A63D5231947"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-				{
 					count: 16
 					id: "4877FBA6EC7A9D9C"
 					item: "minecraft:ladder"
 					type: "item"
 				}
 				{
-					id: "26D36528752046BE"
-					type: "xp_levels"
-					xp_levels: 5
+					exclude_from_claim_all: true
+					id: "3DE7B05E6E138900"
+					table_id: 1287062647694046403L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72668E383781D02C"
+					table_id: 8216757454481317885L
+					type: "choice"
+				}
+				{
+					id: "7FB0FBFF56E452F9"
+					type: "xp"
+					xp: 5
 				}
 			]
 			subtitle: "Build a Mine"
@@ -362,17 +367,24 @@
 				"If your colony lacks a natural water source like an ocean or river, you can make do with a 6x6x1 area of water. "
 			]
 			id: "0B009391E3F76D6E"
-			rewards: [{
-				id: "41290EC24CAFB21A"
-				item: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "41290EC24CAFB21A"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1688EC7CC1BA7308"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build the Fisher's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_fisherman"
@@ -400,15 +412,15 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "32DA997CA1B1452D"
-					item: "minecraft:carrot"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7ACE0D079636A714"
+					table_id: 4597731606249609751L
+					type: "choice"
 				}
 				{
-					id: "0708DD6396D0281E"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "13AA24D3334C3312"
+					type: "xp"
+					xp: 5
 				}
 			]
 			subtitle: "Build a Farm"
@@ -435,7 +447,7 @@
 				{
 					id: "6FDB054D697C4EA9"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 10
 				}
 				{
 					id: "3357ED5EB15A8E1F"
@@ -469,17 +481,24 @@
 				"Note: If you have multiple Warehouses, Couriers will only see the items in the Warehouse they are assigned to. This is helpful in the late game when troubleshooting requests."
 			]
 			id: "490628CE108A833A"
-			rewards: [{
-				id: "7EFD224B4DFF2D7A"
-				item: {
-					Count: 1
-					id: "minecraft:leather_boots"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "7EFD224B4DFF2D7A"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "16CD6941494E94E4"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Courier Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_delivery_person"
@@ -499,6 +518,11 @@
 			]
 			hide_dependency_lines: true
 			id: "71FCF06A98CC66D7"
+			rewards: [{
+				id: "2D0F9C1101384C0F"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "6FF8ACDFE7CCF238"
 				item: "minecolonies:clipboard"
@@ -537,6 +561,11 @@
 			]
 			hide_dependency_lines: true
 			id: "3B40A769EDB26EA2"
+			rewards: [{
+				id: "3843BBFA28666B30"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [
 				{
 					id: "0CBB5387057BD20C"
@@ -560,7 +589,7 @@
 			rewards: [{
 				id: "562D1946CBD6D2FC"
 				type: "xp"
-				xp: 10
+				xp: 5
 			}]
 			tasks: [{
 				id: "69C59B97E310195D"
@@ -599,7 +628,7 @@
 			rewards: [{
 				id: "1BB2255A28D5416B"
 				type: "xp"
-				xp: 10
+				xp: 5
 			}]
 			tasks: [{
 				id: "178C6956FA00A9AA"
@@ -616,7 +645,7 @@
 			rewards: [{
 				id: "5775E488967BE81A"
 				type: "xp"
-				xp: 10
+				xp: 5
 			}]
 			tasks: [{
 				id: "1F8579DCF97FCBC6"
@@ -663,6 +692,11 @@
 			description: ["While you might think your builder needs glasses sometimes, these goggles won’t help them. The Builders googles are for you. When you put them on your head or in a curio head slot they allow you to preview your buildings at level 5 which is helpful when fitting one building next to another."]
 			hide_dependency_lines: true
 			id: "120152510AD4B59A"
+			rewards: [{
+				id: "7BB544852E19F144"
+				type: "xp"
+				xp: 5
+			}]
 			subtitle: "It’s A Samsquanch!"
 			tasks: [{
 				id: "387CF6BDD450D5BD"
@@ -687,6 +721,11 @@
 				"130E8FC7479E4271"
 			]
 			id: "4DD7E2BD8508A117"
+			rewards: [{
+				id: "0EF34269FB098EBD"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Build one of every herder hut."
 			tasks: [{
 				advancement: "minecolonies:production/build_all_herders"
@@ -704,11 +743,18 @@
 				"Note: &eYou must bring your own cows to the pen.&r"
 			]
 			id: "49793060345FB28C"
-			rewards: [{
-				id: "30842F1BADAF5B54"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "30842F1BADAF5B54"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "690DAC4AE12BF480"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build a Cowhand's Hut"
 			tasks: [{
 				id: "6A604DC08BC24230"
@@ -725,17 +771,24 @@
 				"The Swineherd will only keep two pigs alive per hut level, so at level 5 they will have ten pigs in their holding pens."
 			]
 			id: "201CB898A399F1D5"
-			rewards: [{
-				id: "5A4D37447956FC3D"
-				item: {
-					Count: 1
-					id: "minecraft:carrot_on_a_stick"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "5A4D37447956FC3D"
+					item: {
+						Count: 1
+						id: "minecraft:carrot_on_a_stick"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "18076B10C69624F7"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build a Swineherd's Hut"
 			tasks: [{
 				id: "77C960B9B8F4F26C"
@@ -752,12 +805,19 @@
 				"The Chicken Farmer will only keep two chickens alive per hut level, so at level 5 they will have ten chickens."
 			]
 			id: "7870800C28A7E199"
-			rewards: [{
-				count: 16
-				id: "2DD16BAF95D1FA06"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2DD16BAF95D1FA06"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "5FDCB4CA7D52EBC5"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build a Chicken Farmer's Hut"
 			tasks: [{
 				id: "2532D7CC1BE4EDC0"
@@ -774,17 +834,24 @@
 				"The Shepherd will only keep two sheep alive per hut level, so at level 5 they will have ten sheep in their holding pens."
 			]
 			id: "130E8FC7479E4271"
-			rewards: [{
-				id: "64FBC8D5D5F8E092"
-				item: {
-					Count: 1
-					id: "minecraft:shears"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "64FBC8D5D5F8E092"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "258FF1347447F9D8"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build a Sheperd's Hut"
 			tasks: [{
 				id: "76C613DD301AADAA"
@@ -813,6 +880,11 @@
 					id: "52ECFE359C27BB6C"
 					item: "minecraft:lead"
 					type: "item"
+				}
+				{
+					id: "42E89F39F14B91B8"
+					type: "xp"
+					xp: 5
 				}
 			]
 			subtitle: "Build a Rabbit Hutch"
@@ -880,9 +952,9 @@
 					type: "item"
 				}
 				{
-					id: "6AECB15F11202C76"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "6AD070468F671743"
+					type: "xp"
+					xp: 20
 				}
 			]
 			subtitle: "Build a Barracks"
@@ -903,11 +975,24 @@
 				"Tip: Be sure to give your carpenter a &ebuild tool&r as some recipes require it. "
 			]
 			id: "0EBB4E5195610A82"
-			rewards: [{
-				id: "5805F3CA7D86C3C9"
-				item: "structurize:sceptergold"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5805F3CA7D86C3C9"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CDE2C7DE16B9D97"
+					table_id: 8216757454481317885L
+					type: "choice"
+				}
+				{
+					id: "2F797236DAD21354"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Sawmill"
 			tasks: [{
 				advancement: "minecolonies:production/build_sawmill"
@@ -926,12 +1011,19 @@
 				"Note: You must configure the composter’s hut with the items you want composted before the composter will compost. &7&oThis sounds similar to a woodchuck tongue twister.&r"
 			]
 			id: "6B0CE8AD86991E28"
-			rewards: [{
-				count: 64
-				id: "6F5648CB86A26CB5"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "300505E53BBE2D41"
+					table_id: 8849093687305634787L
+					type: "choice"
+				}
+				{
+					id: "7703976CA95A4CA2"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Composter Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_composter"
@@ -952,6 +1044,11 @@
 				"Before you get too excited. No, there is no benefit or bonus from building multiple mystical sites. "
 			]
 			id: "206159A3C7A78447"
+			rewards: [{
+				id: "77C8FAFFFB207296"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Build a Mystical Site"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_mysticalsite"
@@ -959,7 +1056,7 @@
 				id: "3D34C9F6B1CDA855"
 				type: "advancement"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -1024,9 +1121,9 @@
 					type: "item"
 				}
 				{
-					id: "3F00DBCE48C0734F"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "414561C4032D453A"
+					type: "xp"
+					xp: 5
 				}
 			]
 			size: 2.0d
@@ -1120,7 +1217,7 @@
 				id: "7CA26CEF33B7E7C4"
 				type: "advancement"
 			}]
-			x: 11.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -1157,6 +1254,11 @@
 				"Note: Your Guards will not follow you outside the colony border. To bring Guards outside the border, set them to Follow you on the second page of their tower GUI."
 			]
 			id: "1C16AEE8E29FB5A0"
+			rewards: [{
+				id: "07881A4A804B5ABA"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "59ED1ABBA005E7C9"
 				item: {
@@ -1176,6 +1278,25 @@
 			dependencies: ["15B51FB56A64C303"]
 			description: ["The stonemason is another key profession in the colony. They craft items commonly required by the builder. The stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, and basalt. They can also craft end stone from cobblestone and an ender pearl after you complete the research."]
 			id: "15F03A5E7E14C022"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "047CCBADD8765A0E"
+					table_id: 1287062647694046403L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42751B708AD34364"
+					table_id: 2567105459748842191L
+					type: "random"
+				}
+				{
+					id: "3C5281B70907C5C8"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Stonemason's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_stonemason"
@@ -1219,9 +1340,9 @@
 					type: "item"
 				}
 				{
-					id: "02202FA3E324D9C5"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "379CFDA0B11D2CC6"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Build a Combat Academy"
@@ -1257,9 +1378,9 @@
 					type: "item"
 				}
 				{
-					id: "421CC51FDE78E89D"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "1927A7F3D18CFE34"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Build an Archery"
@@ -1276,11 +1397,30 @@
 			dependencies: ["15B51FB56A64C303"]
 			description: ["The Graveyard is where the Undertaker will bury your deceased citizens. When a citizen dies, a grave will spawn at the location of death. The Undertaker will attempt to recover the grave before it despawns. If successful, the Undertaker will return to the graveyard and attempt to revive the citizen. If the citizen cannot be revived, the Undertaker will bury them in the Graveyard. Another grave will be placed with the citizen’s name on it."]
 			id: "33058894ACD9CB06"
-			rewards: [{
-				id: "655F6BD43915CAC1"
-				item: "minecraft:rotten_flesh"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "655F6BD43915CAC1"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "5C68393FFCB588E9"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DE57083BEC1EAAD"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Graveyard"
 			tasks: [{
 				id: "25D5972318AE4EBB"
@@ -1306,9 +1446,14 @@
 					type: "item"
 				}
 				{
-					id: "40F334C8F1199631"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "0AB39C16F1633943"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+				{
+					id: "0045BB3F1EDF70A9"
+					type: "xp"
+					xp: 5
 				}
 			]
 			subtitle: "Build a Residence"
@@ -1325,19 +1470,26 @@
 			dependencies: ["15B51FB56A64C303"]
 			description: ["Remember in the beginning how it seemed that everyone was sick with Influenza and you had to keep feeding everyone carrots and potatoes? With the hospital built, they can go see the doctor and get cured by the Healer. You or the colony still needs to supply the ingredients."]
 			id: "74C114D0C0D4D374"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E0C0022EB951C89"
-				table_id: 4959401306108526783L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E0C0022EB951C89"
+					table_id: 4959401306108526783L
+					type: "choice"
+				}
+				{
+					id: "2C18461503E90836"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Hospital"
 			tasks: [{
 				id: "7B16946B51885249"
 				item: "minecolonies:blockhuthospital"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
@@ -1362,6 +1514,11 @@
 					id: "58FFC9391296B6E6"
 					item: "minecraft:paper"
 					type: "item"
+				}
+				{
+					id: "5177AC0DE1075AA4"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Build a Library"
@@ -1402,12 +1559,19 @@
 				"Be sure to teach the Stone Smelter recipes needed by your colony. Also, be sure to set a fuel type. "
 			]
 			id: "430475E11D259B74"
-			rewards: [{
-				count: 64
-				id: "7BD34182DD592A8C"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00154CD53E104DD5"
+					table_id: 1287062647694046403L
+					type: "choice"
+				}
+				{
+					id: "4FBC37FDD0B5D6C9"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Stone Smelter"
 			tasks: [{
 				advancement: "minecolonies:production/build_stone_smeltery"
@@ -1422,12 +1586,19 @@
 			dependencies: ["15B51FB56A64C303"]
 			description: ["The Smeltery is where the Smelter will smelt ores into ingots. The higher the level of the Smeltery, the more furnaces the Smelter will be able to use. A higher level will also have a higher chance to double and even triple the ingot output per block of ore."]
 			id: "6A60B76053393288"
-			rewards: [{
-				count: 32
-				id: "5823FBA3E567FE8C"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "5823FBA3E567FE8C"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "07672D1F989CD3AE"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Builder a Smelter"
 			tasks: [{
 				advancement: "minecolonies:production/build_smeltery"
@@ -1442,6 +1613,19 @@
 			dependencies: ["4EEF0962CC249F30"]
 			description: ["The Baker will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this upon request, whether from the Cook, the postbox, or as a minimum stock in the Warehouse."]
 			id: "7B5E2CD676A1A1C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00F742CE5063BB97"
+					table_id: 4597731606249609751L
+					type: "choice"
+				}
+				{
+					id: "06E0B246DB023E47"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Bakery"
 			tasks: [{
 				advancement: "minecolonies:production/build_baker"
@@ -1459,6 +1643,11 @@
 				"Now when you right-click while holding the resource scroll, you will see all the needed materials for the Builder’s Hut you clicked on."
 			]
 			id: "085F473094778DCD"
+			rewards: [{
+				id: "4D8E17B38C63B53D"
+				type: "xp"
+				xp: 5
+			}]
 			subtitle: "Micromanagement at it's finest"
 			tasks: [{
 				id: "7FDC708CCFC43F1B"
@@ -1499,6 +1688,11 @@
 			dependencies: ["00A3AD4BD4EE0FC7"]
 			id: "537A8F99CC3F525D"
 			invisible: true
+			rewards: [{
+				id: "01E903FEACE3702E"
+				type: "xp"
+				xp: 5
+			}]
 			subtitle: "Hire 8 Guards"
 			tasks: [{
 				advancement: "minecolonies:military/army_8"
@@ -1513,6 +1707,11 @@
 			dependencies: ["537A8F99CC3F525D"]
 			id: "5F5DB67F6A470C73"
 			invisible: true
+			rewards: [{
+				id: "227BA266A045FDA2"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Hire 30 Guards"
 			tasks: [{
 				advancement: "minecolonies:military/army_30"
@@ -1528,9 +1727,9 @@
 			id: "53F8923B85A8A9CC"
 			invisible: true
 			rewards: [{
-				id: "0C00F01F3B567297"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "373767266F024F66"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "Hire 80 Guards!"
 			tasks: [{
@@ -1546,11 +1745,19 @@
 			dependencies: ["72C749AD9F1C634E"]
 			id: "3AE1C3290500638F"
 			invisible: true
-			rewards: [{
-				id: "391403C87C45AA1A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E48B17F81800DBC"
+					table_id: 4597731606249609751L
+					type: "choice"
+				}
+				{
+					id: "6B5312C1055ED517"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Reach 10 Citizens"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_10"
@@ -1565,11 +1772,19 @@
 			dependencies: ["3AE1C3290500638F"]
 			id: "4D61009737D94BDA"
 			invisible: true
-			rewards: [{
-				id: "1BF4CDE00A585B13"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62CA7982C2A3CBAA"
+					table_id: 4959401306108526783L
+					type: "choice"
+				}
+				{
+					id: "61FE7BF994C2256E"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Reach 25 Citizens"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_25"
@@ -1584,11 +1799,19 @@
 			dependencies: ["4D61009737D94BDA"]
 			id: "14DA3DC7C0009A6A"
 			invisible: true
-			rewards: [{
-				id: "339C2D7D2E13CC60"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64C6A587169EFED6"
+					table_id: 4597731606249609751L
+					type: "choice"
+				}
+				{
+					id: "05541FC6AEDC730A"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Reach 50 Citizens"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_50"
@@ -1603,6 +1826,57 @@
 			dependencies: ["5A11A2FC20E5CE2A"]
 			id: "360E9E02A494217C"
 			invisible: true
+			rewards: [
+				{
+					id: "779D1636D1B845C9"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CB2EAA35925129F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A8367ED8183237B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1903F76EC438085C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "168FA1336D70A482"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build Barracks Tower Inside the Barracks"
 			tasks: [{
 				advancement: "minecolonies:military/build_barracks_tower"
@@ -1615,6 +1889,7 @@
 		}
 		{
 			dependencies: ["33058894ACD9CB06"]
+			description: ["Just make sure you have unlocked the research \"Raising the Dead\"..."]
 			id: "696BDC29ACCBBE29"
 			invisible: true
 			rewards: [{
@@ -1622,6 +1897,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "Give the Undertaker a Totem"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/undertaker_totem"
 				criterion: ""
@@ -1635,11 +1911,19 @@
 			dependencies: ["0EBB4E5195610A82"]
 			id: "68500900087F92BC"
 			invisible: true
-			rewards: [{
-				id: "319C392EAB9692FF"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "651BBB4D77E5B7BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20110BAC5A1C81EB"
+					table_id: 8216757454481317885L
+					type: "choice"
+				}
+			]
 			subtitle: "Teach a Carpenter to Craft a Door"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/building_add_recipe_door"
@@ -1654,11 +1938,24 @@
 			description: ["Here's a bed, you will probably need more."]
 			id: "6B26495A9E7D77FC"
 			invisible: true
-			rewards: [{
-				id: "3562F2AFBC208295"
-				item: "minecraft:red_bed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3562F2AFBC208295"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6618E5FAA99690C4"
+					table_id: 2567105459748842191L
+					type: "random"
+				}
+				{
+					id: "22694B23F037369B"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Have a Baby"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_5"
@@ -1691,12 +1988,20 @@
 		{
 			description: ["Is the builder going too slow? With this hammer equiped and the right resources in your inventory, you can help the builder out. Simply click anywhere in the hut being built to place blocks for the builder. "]
 			id: "503C5A0CE113962C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "450CD29537FAF8BF"
-				table_id: 2567105459748842191L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "450CD29537FAF8BF"
+					table_id: 2567105459748842191L
+					type: "random"
+				}
+				{
+					id: "180BF0B37EF2CD10"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft a Hammer"
 			tasks: [{
 				id: "41E1240EDDD3F18A"
 				item: {
@@ -1708,7 +2013,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -12.0d
 		}
 		{
@@ -1717,16 +2022,15 @@
 			id: "55851524FDDB6959"
 			rewards: [
 				{
-					count: 6
-					id: "24C1C3A12DA5B7C6"
-					item: "minecolonies:large_milk_bottle"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6F570DFB3F9B0F99"
+					table_id: 4597731606249609751L
+					type: "choice"
 				}
 				{
-					count: 6
-					id: "476C877ED0B4D429"
-					item: "minecolonies:durum"
-					type: "item"
+					id: "222BB16F1BFFB629"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1742,6 +2046,19 @@
 			description: ["I hope your citizens apprcaite all that you do for them. Spoiler alert, they don't thay are probably still complaining abount not enough guards, poor housing conditions, or refusing to eat the slop you put in front of them. (only commoners eat steak...)"]
 			id: "5827E9110E4B19F9"
 			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "14677649E2CFBF71"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "62EF7719AFAC37B2"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Build a Level 5 Mystical Site"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_mysticalsite_5"
@@ -1749,7 +2066,7 @@
 				id: "26D442F20A46F878"
 				type: "advancement"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
@@ -1777,6 +2094,19 @@
 			icon: "minecolonies:blockhutgraveyard"
 			id: "0D56E3C121A776DF"
 			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2393FDDDFD2A444E"
+					table_id: 7776825318533965765L
+					type: "choice"
+				}
+				{
+					id: "4253FF1CA5C33037"
+					type: "xp"
+					xp: 50
+				}
+			]
 			subtitle: "Undertaker Revived a Dead Citizen"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/citizen_resurrect"
@@ -1796,6 +2126,19 @@
 				"The settings tab should be a first stop for any new colonist as it contains options for hiring mode, housing assignment mode, and options to allow kids to be born. Also, this is where you can customize your colony flag. Your flag will appear on guard towers and guard shields. "
 			]
 			id: "7D3489901AA47547"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EC30F4D91BF6600"
+					table_id: 2567105459748842191L
+					type: "random"
+				}
+				{
+					id: "3AB4F240DDB060E4"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build the Town Hall"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/place_townhall"
@@ -1818,21 +2161,15 @@
 			id: "4EEF0962CC249F30"
 			rewards: [
 				{
-					id: "4773381DC9552832"
-					item: "minecolonies:manchet_bread"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4F1860A141110E9C"
+					table_id: 4597731606249609751L
+					type: "choice"
 				}
 				{
-					count: 8
-					id: "544E7C3856EA9046"
-					item: "minecraft:cooked_cod"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "20A3617FB722A081"
-					item: "minecraft:cooked_beef"
-					type: "item"
+					id: "10052AEDC98972A7"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Build a Restaurant"
@@ -1857,6 +2194,19 @@
 				"&o&8PRO TIP: You can tell a lot about a potential recruit by looking at their boots. Fancy boots, better stats.&r&r"
 			]
 			id: "75CBFD0F90772359"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7752AA65150ED232"
+					table_id: 2567105459748842191L
+					type: "choice"
+				}
+				{
+					id: "34906739966BFC3C"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Build a Tavern"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_tavern"
@@ -1872,6 +2222,19 @@
 			dependencies: ["15B51FB56A64C303"]
 			description: ["The Crusher’s Hut is where the Crusher will take items and crush them into other blocks. Most notably cobblestone = gravel, gravel = sand, sand = clay. One important factor to know is that the crusher has a daily limit based on the hut level. Level 1 has a daily max of 16, level 2 has 64. At level 5 it’s daily max is 999. "]
 			id: "07C26C046CDE2507"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "053463DF132494C0"
+					table_id: 8298941300314909535L
+					type: "choice"
+				}
+				{
+					id: "6746CC44B780D545"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Build a Crusher's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_crusher"
@@ -1881,6 +2244,229 @@
 			}]
 			x: 13.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["360E9E02A494217C"]
+			id: "0B96EC5055E6B817"
+			invisible: true
+			rewards: [{
+				id: "44BD46C82881D560"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "minecolonies:military/build_all_barracks_towers"
+				criterion: ""
+				id: "299C4CA9454B25EB"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			id: "79933C964312F721"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43FD6B29EC71AA97"
+					table_id: 8298941300314909535L
+					type: "choice"
+				}
+				{
+					id: "600223DC13F80712"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/build_sifter"
+				criterion: ""
+				id: "3599DA126DE57B76"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A60B76053393288"]
+			description: ["A level 3 smeltery applies Fortune II when smelting ores! "]
+			id: "6B80B2314CC47FD6"
+			invisible: true
+			rewards: [
+				{
+					count: 16
+					id: "71FE1B4720977E27"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "2850D5DA8A45055B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Fortune II"
+			tasks: [{
+				advancement: "minecolonies:production/build_smeltery_3"
+				criterion: ""
+				id: "4E61F84C1D2EDC01"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6B80B2314CC47FD6"]
+			description: ["The smeltery applies Fortune IV when smelting ores! "]
+			id: "0089B6C20C45DDCA"
+			invisible: true
+			rewards: [
+				{
+					count: 16
+					id: "2E1AFC2C64DCC34A"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "6AB623EC76F0AC5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Fortune IV"
+			tasks: [{
+				advancement: "minecolonies:production/build_smeltery_5"
+				criterion: ""
+				id: "33D151F7844FADCB"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["57C889EC980D33D9"]
+			description: ["Assign 5 fields to a single worker."]
+			id: "226176A1C73431B5"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09573D784D77C108"
+					table_id: 4597731606249609751L
+					type: "choice"
+				}
+				{
+					id: "41C3E99A6F0AC495"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Get To Work!"
+			tasks: [{
+				advancement: "minecolonies:production/max_fields"
+				criterion: ""
+				id: "555E3450E5B558D6"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "2FD5037D4E720043"
+			invisible: true
+			rewards: [
+				{
+					id: "3860F63BF484FDAE"
+					item: {
+						Count: 1
+						id: "minecolonies:assistanthammer_iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C5340ABD89828F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5B0B85743EA3AAF8"
+					item: {
+						Count: 1
+						id: "minecolonies:assistanthammer_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D192168CDB3667"
+					item: {
+						Count: 1
+						id: "minecolonies:resourcescroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "512C83A72DA598AB"
+					item: {
+						Count: 1
+						id: "minecolonies:build_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EF1CECC5F9C262A"
+					item: "minecolonies:clipboard"
+					type: "item"
+				}
+				{
+					id: "61F40AAE8AA8EA72"
+					item: {
+						Count: 1
+						id: "minecolonies:banner_rally_guards"
+						tag: {
+							guardtowerpositions: [ ]
+							isActive: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6965ED856289BA6C"
+					item: "minecolonies:ancienttome"
+					type: "item"
+				}
+				{
+					id: "539E55E624706FDA"
+					item: "minecolonies:blockpostbox"
+					type: "item"
+				}
+				{
+					id: "53F1F85197665E34"
+					item: "minecolonies:blockstash"
+					type: "item"
+				}
+				{
+					advancement: "minecolonies:minecolonies/building_add_recipe_torch"
+					criterion: ""
+					id: "143CD0910A08C08C"
+					type: "advancement"
+				}
+			]
+			title: "All The Utility"
+			x: 11.5d
+			y: -12.0d
 		}
 	]
 	title: "MineColonies"

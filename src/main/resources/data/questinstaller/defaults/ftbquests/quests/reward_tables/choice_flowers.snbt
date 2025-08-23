@@ -15,6 +15,7 @@
 		{ count: 6, item: "minecraft:oxeye_daisy" }
 		{ count: 6, item: "minecraft:cornflower" }
 		{ count: 6, item: "minecraft:lily_of_the_valley" }
+		{ count: 6, item: "minecraft:sunflower" }
 	]
 	title: "Choice Flowers"
 }
