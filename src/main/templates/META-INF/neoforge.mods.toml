@@ -21,8 +21,3 @@ modId = "ftbquests"
 mandatory = false
 versionRange = "[2001.4.14,)"
 side = "BOTH"
-
-[[dependencies.questinstaller]]
-modId = "kubejs"
-mandatory = false
-side = "BOTH"

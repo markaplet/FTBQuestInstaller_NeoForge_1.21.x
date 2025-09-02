@@ -56,35 +56,35 @@ public class QuestInstaller {
                 FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/minecolonies_common.snbt"));
 
         // KUBE JS FILES
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_build_tool.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_build_tool.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_defense.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_defense.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_feed_the_machine.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_feed_the_machine.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_getting_started.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_getting_started.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_logistics.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_logistics.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_production.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_production.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_the_builder.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_the_builder.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_university_research.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_university_research.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_utility.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_utility.png"));
-
-        copyIfMissing("kubejs/assets/minecolonies/textures/quests/minecolonies_logo_medium.png",
-                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/minecolonies_logo_medium.png"));
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_build_tool.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_build_tool.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_defense.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_defense.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_feed_the_machine.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_feed_the_machine.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_getting_started.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_getting_started.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_logistics.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_logistics.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_production.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_production.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_the_builder.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_the_builder.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_university_research.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_university_research.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/hc_utility.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/hc_utility.png"));
+//
+//        copyIfMissing("kubejs/assets/minecolonies/textures/quests/minecolonies_logo_medium.png",
+//                FMLPaths.GAMEDIR.get().resolve("kubejs/assets/minecolonies/textures/quests/minecolonies_logo_medium.png"));
     }
 
     private void copyIfMissing(String resourcePath, Path targetPath) {
